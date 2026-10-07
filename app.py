@@ -344,7 +344,7 @@ for trace in fig.data:
     trace.customdata = customdata
 
     trace.hovertemplate = (
-        "<b>Dag %{x}</b><br><br>"
+        "<b>Day %{x}</b><br><br>"
         "%{customdata}"
         "<extra></extra>"
     )
