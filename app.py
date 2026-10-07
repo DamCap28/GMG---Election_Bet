@@ -283,21 +283,36 @@ for person in deltagare:
         if rad["namn"] == namn
     ]
 
+    x = [rad["dag"] for rad in person_data]
+    y = [rad["position"] for rad in person_data]
+
+    # Linjen
     fig.add_trace(
         go.Scatter(
-            x=[rad["dag"] for rad in person_data],
-            y=[rad["position"] for rad in person_data],
+            x=x,
+            y=y,
             mode="lines",
             name=namn,
-            hovertemplate=(
-                "%{customdata}<br>"
-                "Position: %{y}"
-                "<extra></extra>"
-            ),
-            customdata=[namn] * len(person_data)
+            line=dict(width=3),
+            showlegend=False
         )
     )
 
+    # Cirkel på senaste punkten
+    fig.add_trace(
+        go.Scatter(
+            x=[x[-1]],
+            y=[y[-1]],
+            mode="markers",
+            name=namn,
+            marker=dict(
+                size=9,
+                symbol="circle"
+            ),
+            hoverinfo="skip",
+            showlegend=False
+        )
+    )
 
 # ---------------------------------
 # HOVER-ORDNING
