@@ -408,7 +408,8 @@ st.plotly_chart(
     config={
     "displayModeBar": False,
     "scrollZoom": False,
-    "doubleClick": False
+    "doubleClick": False,
+    "dragmode": False
 }
 
 )
