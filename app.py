@@ -336,14 +336,16 @@ for dag in range(0, days_passed + 1):
     )
 
 
-# Uppdatera hover för varje linje
+
+# Uppdatera hover för varje linje och markör
 for trace in fig.data:
 
     namn = trace.name
-
     customdata = []
 
-    for dag in range(0, days_passed + 1):
+    # Använd spårets faktiska x-värden.
+    # Linjer har alla dagar; markörer har bara dagens dag.
+    for dag in trace.x:
 
         aktuell_rad = next(
             rad for rad in tidsserie
