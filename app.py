@@ -401,7 +401,7 @@ fig.update_layout(
 
     hovermode="closest"
 )
-
+fig.update_layout(dragmode=False)
 st.plotly_chart(
     fig,
     use_container_width=True,  
