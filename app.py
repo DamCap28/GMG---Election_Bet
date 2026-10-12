@@ -229,7 +229,7 @@ st.markdown(
 
 
 # Valnatten
-election_night = date(2026, 9, 14)
+election_night = date(2026, 9, 13)
 
 # Dagens datum
 today = date.today()
