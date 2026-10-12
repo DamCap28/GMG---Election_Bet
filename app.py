@@ -404,8 +404,11 @@ fig.update_layout(
 
 st.plotly_chart(
     fig,
-    use_container_width=True,
+    use_container_width=True,  
     config={
-        "displayModeBar": False
-    }
+    "displayModeBar": False,
+    "scrollZoom": False,
+    "doubleClick": False
+}
+
 )
