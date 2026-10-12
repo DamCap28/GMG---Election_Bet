@@ -86,7 +86,7 @@ st.markdown(
 # BANNER
 # -----------------------------
 
-election_night = date(2026, 9, 14)
+election_night = date(2026, 9, 13)
 today = date.today()
 
 days_passed = (today - election_night).days
@@ -104,7 +104,7 @@ st.markdown(
         background-color: #f0f2f6;
         font-weight: bold;
     ">
-        <span>Days passed since election night:</span>
+        <span>Days since election night:</span>
         <span style="font-size: 24px;">{days_passed}</span>
     </div>
     """,
