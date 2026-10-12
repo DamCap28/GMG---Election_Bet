@@ -18,21 +18,21 @@ st.set_page_config(
 # -----------------------------
 
 deltagare = [
-    {"namn": "Damiano", "dagar": 120, "gissat_datum": "2027-01-12"},
-    {"namn": "Simon", "dagar": 100, "gissat_datum": "2026-12-23"},
-    {"namn": "César", "dagar": 75, "gissat_datum": "2026-11-28"},
-    {"namn": "Patrick", "dagar": 59, "gissat_datum": "2026-11-12"},
-    {"namn": "Robin", "dagar": 55, "gissat_datum": "2026-11-08"},
-    {"namn": "Oscar ML", "dagar": 52, "gissat_datum": "2026-11-05"},
-    {"namn": "Aston", "dagar": 51, "gissat_datum": "2026-11-04"},
-    {"namn": "William", "dagar": 47, "gissat_datum": "2026-10-31"},
-    {"namn": "Gustaf", "dagar": 45, "gissat_datum": "2026-10-29"},
-    {"namn": "Ella", "dagar": 43, "gissat_datum": "2026-10-27"},
-    {"namn": "Diego", "dagar": 42, "gissat_datum": "2026-10-26"},
-    {"namn": "Oscar L", "dagar": 32, "gissat_datum": "2026-10-16"},
-    {"namn": "Oscar M", "dagar": 30, "gissat_datum": "2026-10-14"},
-    {"namn": "Jesper", "dagar": 19, "gissat_datum": "2026-10-03"},
-    {"namn": "Tobias", "dagar": 10, "gissat_datum": "2026-09-24"},
+    {"namn": "Damiano", "dagar": 120, "gissat_datum": "2027-01-11"},
+    {"namn": "Simon", "dagar": 100, "gissat_datum": "2026-12-22"},
+    {"namn": "César", "dagar": 75, "gissat_datum": "2026-11-27"},
+    {"namn": "Patrick", "dagar": 59, "gissat_datum": "2026-11-11"},
+    {"namn": "Robin", "dagar": 55, "gissat_datum": "2026-11-07"},
+    {"namn": "Oscar ML", "dagar": 52, "gissat_datum": "2026-11-04"},
+    {"namn": "Aston", "dagar": 51, "gissat_datum": "2026-11-03"},
+    {"namn": "William", "dagar": 47, "gissat_datum": "2026-10-30"},
+    {"namn": "Gustaf", "dagar": 45, "gissat_datum": "2026-10-28"},
+    {"namn": "Ella", "dagar": 43, "gissat_datum": "2026-10-26"},
+    {"namn": "Diego", "dagar": 42, "gissat_datum": "2026-10-25"},
+    {"namn": "Oscar L", "dagar": 32, "gissat_datum": "2026-10-15"},
+    {"namn": "Oscar M", "dagar": 30, "gissat_datum": "2026-10-13"},
+    {"namn": "Jesper", "dagar": 19, "gissat_datum": "2026-10-02"},
+    {"namn": "Tobias", "dagar": 10, "gissat_datum": "2026-09-23"},
 ]
 
 
